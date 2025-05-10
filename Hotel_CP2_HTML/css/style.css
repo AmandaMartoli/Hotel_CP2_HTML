@@ -1,0 +1,378 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+
+body{
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family:"Yrsa", serif;
+    font-size:x-large;
+    background-color:rgb(253, 240, 206);
+    
+}
+
+h1{
+    color: #34495e;
+}
+
+/* ------------------ MENU ------------------ */
+
+.menu nav{
+    flex-wrap: nowrap;
+    background-color: rgb(250, 232, 185);
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px ;
+}
+
+.menu nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px 60px;
+}
+
+.menu nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(247, 213, 156, 0.896);
+}
+
+/* ------------------ RODAPÉ ------------------ */
+
+footer{
+    background-color:  rgb(248, 229, 181);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------ PÁGINA INICIAL ------------------ */
+
+.home-recep p{
+    margin: 30px;
+    flex-wrap: nowrap;
+}
+
+.home-recep img{
+    margin: 6px;
+}
+
+.home-quarto p{
+    flex-wrap: nowrap;
+    margin: 30px;
+}
+
+.home-quarto img{
+    margin: 6px;
+}
+
+.home-cozinha p{
+    margin: 30px;
+    flex-wrap: nowrap;
+}
+
+.home-cozinha img{
+    margin:6px ;
+}
+
+.Mapa iframe{
+    margin: 30px;
+
+}
+
+.Mapa img{
+    margin: 30px;
+}
+
+.home-recep{
+    text-align: center;
+    border: 2px ;
+
+}
+
+/* ------------------ PÁGINA SERVIÇOS ------------------ */
+
+.SPA{
+    margin: 30px;
+    flex-wrap: nowrap;
+}
+
+.SPA img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+}
+
+.SPA p{
+    font-size: x-large;
+    text-align: center;
+    background-color:rgb(253, 240, 206) ;
+    margin: 15px;
+    padding: 20px;
+}
+.SPA h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 15px;
+}
+
+.cozinha{
+    margin: 30px;
+    flex-wrap: nowrap;
+    }
+    
+.cozinha img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+        
+}
+    
+.cozinha p{
+    font-size: x-large;
+    text-align: center;
+    background-color:rgb(253, 240, 206) ;
+    margin: 15px;
+    padding: 20px;
+}
+
+.cozinha h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 15px;
+}
+
+.academia{
+    margin: 30px;
+    flex-wrap: nowrap;
+    }
+    
+.academia img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+        
+}
+    
+.academia p{
+    font-size: x-large;
+    text-align: center;
+    background-color:rgb(253, 240, 206) ;
+    margin: 15px;
+    padding: 20px;
+}
+
+.academia h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 15px;
+}
+
+/* ------------------ PÁGINA ACOMODAÇÕES ------------------ */
+
+.main-acomodacoes {
+    text-align: center;
+    margin: 2.5rem;
+    padding: 10px  ; 
+    font-size: 3.5rem;
+    color: #2c3e50;
+  }
+  
+  
+.acomodacoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    font-size: x-large;
+  }
+  
+.quarto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+.quarto:hover {
+    transform: translateY(-10px);
+  }
+  
+.quarto h2 {
+    font-size: xx-large;
+    margin: 1rem;
+    color: #34495e;
+  }
+  
+.quarto p {
+    margin: 0 1rem 1rem;
+    color: #7f8c8d;
+  }
+  
+.quarto a {
+    display: block;
+    margin: 0 1rem 1rem;
+    padding: 0.5rem;
+    background-color: rgb(20, 78, 58);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+.quarto a:hover {
+    background-color: rgb(117, 172, 153);
+  }  
+  
+@media (max-width: 768px) {
+    .acomodacoes {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+/* ------------------ PÁGINAS QUARTOS ------------------ */
+
+.menu-quartos nav{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-quartos nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-quartos nav ul li a{
+    font-weight: bold;
+    text-decoration: none ;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px 30px;   
+}
+
+.menu-quartos nav ul li a:hover{
+    color: #34495e;
+    background-color: rgb(250, 232, 185);
+}
+
+.main-quartos {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  
+  .quarto {
+    background-color: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .quarto h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .quarto img {
+    width: 450px;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+
+/* ------------------ PÁGINA CONTATO ------------------ */
+
+.main-contato {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(117, 172, 153);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(20, 78, 58);
+  }
+  
+.main-contato h2 {
+    text-align: center;
+    margin-bottom: 48px;
+    color: #ffffff;
+  }
+  
+.main-contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+.main-contato label {
+    font-weight: bold;
+    color: white;
+    text-align: left;
+  }
+  
+.main-contato input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #e2e3e8;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+.main-contato button {
+    padding: 10px;
+    background-color:rgb(20, 78, 58);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    align-self: flex-start;
+  }
+  
+.main-contato button:hover {
+    background-color: rgb(24, 61, 48);
+  }
+
+/* ------------------ PÁGINA GALERIA ------------------ */
+
+.imagens img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    width: 400px;
+    transition: scale 2s;          
+}
+
+.imagens img:hover{
+    transform: scale(1.5)
+}
+
+.imagens{
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;  
+}

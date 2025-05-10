@@ -1,0 +1,135 @@
+body{
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family:"Yrsa", serif;
+    font-size:x-large;
+    background-color:rgb(253, 240, 206);
+    
+}
+
+
+.SPA{
+margin: 30px;
+flex-wrap: nowrap;
+}
+
+.SPA img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+}
+
+.SPA p{
+    font-size: x-large;
+    text-align: center;
+    background-color:rgb(253, 240, 206) ;
+    margin: 15px;
+    padding: 20px;
+}
+.SPA h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 15px;
+}
+
+.cozinha{
+    margin: 30px;
+    flex-wrap: nowrap;
+    }
+    
+.cozinha img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+        
+}
+    
+.cozinha p{
+    font-size: x-large;
+    text-align: center;
+    background-color:rgb(253, 240, 206) ;
+    margin: 15px;
+    padding: 20px;
+}
+
+.cozinha h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 15px;
+}
+
+.academia{
+    margin: 30px;
+    flex-wrap: nowrap;
+    }
+    
+.academia img{
+    margin: 10px;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+        
+}
+    
+.academia p{
+    font-size: x-large;
+    text-align: center;
+    background-color:rgb(253, 240, 206) ;
+    margin: 15px;
+    padding: 20px;
+}
+
+.academia h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+header{
+    text-align: center;
+    font-family: "Yrsa", serif;
+    background-color: rgb(253, 240, 206);
+}
+
+nav{
+    flex-wrap: nowrap;
+    background-color: rgb(241, 222, 175);
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px ;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 5px 60px;
+}
+
+nav ul li a:hover{
+    color: rgb(117, 172, 153);
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(241, 222, 175);
+    font-size: x-large;
+
+  }
+
+footer p{
+    font-size: x-large;
+    font-family: "Yrsa",serif;
+}

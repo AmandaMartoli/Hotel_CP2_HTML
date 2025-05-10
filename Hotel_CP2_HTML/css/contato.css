@@ -1,0 +1,105 @@
+/* contato */
+
+body {
+    flex-wrap: nowrap;
+    text-align: left;
+    font-family:"Yrsa", serif;
+    background-color:rgb(250, 232, 185);
+    font-size: x-large;
+    
+   
+  }
+  
+  header {
+    background-color: rgb(241, 222, 175);
+    text-align: center;
+    
+  }
+
+  
+  nav{
+    flex-wrap: nowrap;
+    background-color: rgb(241, 222, 175);
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px ;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    padding: 5px 60px;
+}
+
+nav ul li a:hover{
+    color: rgb(117, 172, 153);
+    background-color: rgb(255, 255, 255);
+}
+    
+  
+  
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(117, 172, 153);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(20, 78, 58);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 48px;
+    color: #ffffff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: 1px solid #e2e3e8;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color:rgb(20, 78, 58);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    align-self: flex-start;
+  }
+  
+  button:hover {
+    background-color: rgb(24, 61, 48);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(241, 222, 175);
+    font-size: x-large;
+
+  }
